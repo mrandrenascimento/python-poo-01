@@ -32,8 +32,8 @@ class Motoboy(Funcionario):
 #print(f"Nome: {funcionario1.nome}")
 
 gerente1 = Gerente("José",23,1000.00)
-print(f"Nome: ",gerente1.nome)
-print(f"Salário: ",gerente1.calcular_salario())
+print(f"Nome: {gerente1.nome}")
+print(f"Salário: {gerente1.calcular_salario()}")
 
 motoboy1 = Motoboy("Maria",35,1000.00,"n656568")
 print(f"\nNome: ",motoboy1.nome)
