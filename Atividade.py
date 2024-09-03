@@ -13,7 +13,7 @@ class Endereco:
     def __str__(self) -> str:
         return f"Logradouro: {self.logradouro}\nNúmero: {self.numeto}\nComplemento: {self.complemento}\nCep{self.cep}"    
 
-class Funcionario(ABC):
+class Funcionario(ABC): # <<abstract>> 
     def __init__(self,nome:str, telefone:str, email:str, endereco: Endereco) -> None:
         self.nome = nome
         self.telefone = telefone
