@@ -34,3 +34,7 @@ class Motoboy(Funcionario):
     def __init__(self, nome: str, email: str, cnh:str, salario: str, endereco: Endereco) -> None:
         super().__init__(nome, email, salario, endereco)    
         self.cnh = cnh 
+    def salario_Final(self) -> float:
+        return 1000.00
+    
+Motoboy motoboy = Motoboy()

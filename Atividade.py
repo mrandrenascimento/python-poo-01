@@ -21,7 +21,7 @@ class Funcionario(ABC): # <<abstract>>
         self.endereco = endereco
 
     @abstractmethod
-    def salario_Final(self)->str :
+    def Salario_Final(self)->str :
         pass
    
     def __str__(self) -> str:
@@ -37,7 +37,7 @@ class Engenheiro (Funcionario):
         super().__init__(nome, telefone, email, endereco)    
         self.crea= crea
 
-    def salario_Final(self) -> str:
+    def Salario_Final(self) -> str:
         return 2000.00
 
 
